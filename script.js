@@ -30,17 +30,17 @@ function displayPaymentInfo() {
     if (method) {
         switch (method) {
             case 'qris':
-                paymentDesc.textContent = 'Langsung transfer saja broo🤑!!!';
+                paymentDesc.textContent = 'langsung teep ajh cess!!!';
                 paymentQr.src = 'qris.jpg'; // Ganti dengan QRIS asli
                 paymentNumber.textContent = '';
                 break;
             case 'dana':
-                paymentDesc.textContent = 'Langsung transfer saja broo🤑!!!';
+                paymentDesc.textContent = 'langsung teep ajh cess!!!';
                 paymentQr.src = 'dana.jpg'; // Ganti dengan QR Dana asli
                 paymentNumber.textContent = 'piBooNk'; // Ganti dengan nomor Dana kamu
                 break;
             case 'gopay':
-                paymentDesc.textContent = 'Langsung transfer saja broo🤑!!!';
+                paymentDesc.textContent = 'langsung teep ajh cess!!!';
                 paymentQr.src = 'gopay.jpg'; // Ganti dengan QR GoPay asli
                 paymentNumber.textContent = 'piBooNk'; // Ganti dengan nomor GoPay kamu
                 break;
